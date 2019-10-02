@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Creations</title>
+</head>
+<body id="body1">
+<div class="background-div">
+    <nav>
+        <ul id="nav">
+            <li><a href="Main.html">Über mich</a></li>
+            <li><a href="creations.html">Creations</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <br>
+    <center><h1>Kontakt</h1></center>
+    <br>
+    <br>
+
+        <tr>
+            <td>E-Mail: </td>
+            <td>marc.weber@student.ksh.ch</td>
+            <td><a href="mailto:marc.weber@student.ksh.ch">E-Mail Senden</a></td> <!-- direkt link zum eine Email versenden an die Adresse marc.weber@student.ksh.ch -->
+        </tr>
+        <br>
+        <tr>
+            <td>Telefon: </td>
+            <td>079 273 9667</td>
+        </tr>
+    <br>
+    <center><h2>Schick mir eine E-Mail!</h2>
+<br>
+        <h4>nicht funktionstüchtig</h4><!-- problem, das File kontaktform.php wird auf localhost nicht ausgeführt sondern herunter geladen. -->
+        <br>
+    <form action="kontaktform.php" method="post">
+        <input type="text" name="titel" placeholder="Titel"><!-- subject auf englisch wird hier vom benutzer eingegeben -->
+        <br>
+        <input type="text" name="mail" placeholder="Ihre E-Mail"> <!-- benutzer gibt seine Mail ein -->
+        <br>
+        <textarea name="inhalt" placeholder="Inhalt"></textarea> <!-- Der Ihnalt der eigentlichen Nachricht wird hier vom benutzer eingegeben -->
+        <br>
+        <br>
+        <button type="submit" name="submit">E-Mail senden</button>
+    </form>
+    </center>
+</body>
+</html>

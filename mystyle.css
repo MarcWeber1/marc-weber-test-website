@@ -1,0 +1,85 @@
+body, html{
+    min-height: 100%;
+}
+#body1{
+
+    background: url(banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+    padding: 200px; /* platz zwischen body und rand der webseite */
+}
+#body2{
+
+    background: url(Samnaun.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+    padding: 200px; /* platz zwischen body und rand der webseite */
+    background-position: center;
+}
+.background-div{
+    background: rgba(255, 255, 255, 0.65); /* Weisser Hintergrund mit einer Opacity von 65% */
+    padding: 10px;
+    border-style: outset;
+    border-color: black;
+    border-radius: 40px;
+}
+
+iframe{
+    opacity:1;
+}
+
+textarea{
+    resize: none; /* textarea wurde fixiert */
+}
+#text{
+    color: black;
+    opacity: 1;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+     font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#textWerke{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav{
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0; /* 1em = 10px */
+    list-style: none; /* bullet points eliminieren*/
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav li{
+     float: left; /* horizontale Navigation */
+ }
+li a {
+    display: inline-block;
+    padding: 10px 14px;
+    text-decoration: none;/* hyperlink entfernen */
+    color: black;
+
+}
+li a:hover{ /* wenn cursor über einem navi feld steht */
+    color: black;
+    background: rgba(166, 166, 166, 0.65);/* grauer hintergrund mit einer Opacity von 65% */
+    display: inline-block;
+    width: 100px;
+    padding: 10px 14px;
+}
+
